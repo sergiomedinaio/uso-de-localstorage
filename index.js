@@ -19,4 +19,12 @@ const consultarTituloDeLaPagina = () => {
     }
 }
 
+const crearModal = () => {
+    const app = document.querySelector("#app");
+    const body = app.parentNode;
+    const modalContainer = document.createElement("div");
+    body.append(modalContainer);
+
+}
 consultarTituloDeLaPagina();
+crearModal();
